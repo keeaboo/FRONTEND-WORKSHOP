@@ -1,1 +1,83 @@
+body {
+    background: rgb(202,71,230);
+    background: linear-gradient(90deg, rgba(160,40,185,1) 0%, rgba(147,48,213,1) 35%, rgba(150,151,255,1) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
 
+.login-container {
+    background-color: white;
+    margin: auto;
+    width: 300px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 50px;
+    box-shadow: -5px 5px 20px rgb(135, 53, 154);
+}
+
+h1 {
+    color: rgb(47, 47, 47);
+    margin:10px;
+}
+
+img {
+    
+}
+
+#loginForm {
+    padding: 20px;
+    padding-bottom: 0;
+    flex-direction: column;
+    font-weight: bold;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 0;
+}
+
+.form-control {
+    padding-bottom: 15px;
+}
+
+input {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 4px;
+    margin-top: 7px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    
+}
+
+input:focus {
+    /* border: 2px solid rgb(243, 199, 39); */
+    box-shadow: 2px 2px 10px rgb(201, 201, 201);
+}
+
+#loginButton {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(108, 88, 220);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#loginButton:hover {
+    background-color: rgb(88, 52, 169);
+    transform: scale(1.05);
+    box-shadow: 2px 2px 10px rgb(165, 119, 189);
+}
+
+.error-message {
+    color: red;
+}
